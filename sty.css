@@ -1,0 +1,39 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+body
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+li
+{
+    margin: 25px;
+    font-size: 24px;
+}
+
+.pse
+{
+    font-family: roboto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    font-weight: 900;
+    list-style: none;
+}
+.sim
+{
+    display: flex;
+    justify-content: space-around;
+}
+.sim img
+{
+    margin: 10.5px;
+}
+li:hover{
+    color:royalblue;
+    text-transform: uppercase;
+    
+}
